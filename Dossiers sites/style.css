@@ -1,0 +1,122 @@
+h1 {color: rgb(148, 0, 211);
+    font-size: 50px;
+    text-align: center;
+    }
+
+h2{background-color: rgb(235, 76, 52, 0.5);
+    border-top: 2px rgb(252, 227, 3) solid;
+    border-right: 2px  rgb(252, 227, 3) solid;
+    border-bottom: 2px  rgb(252, 227, 3) solid;
+    border-left: 2px  rgb(252, 227, 3) solid;
+    border-radius: 9px;};
+    
+    a:visited {
+        color: blue;
+    }
+
+p, h1, h2, h3, h4, ul, ol, a {font-family: 'Dosis', sans-serif;
+                font-family: 'MuseoModerno', cursive;
+                font-family: 'Source Code Pro', monospace;
+                margin-left: 10px;
+                
+                } 
+h1{font-size: 3em;
+text-shadow: 6px 6px 0px rgb(253, 236, 2); }
+
+p{font-size: 1em;
+text-justify: distribute-all-lines;}
+
+span{color: #A5B4FC;}
+
+em{ font-style: italic;}
+
+body{background-color: #ebe834;
+ background-image: url("Contenu/fondsite.jpeg");
+ background-size: 530px ;
+background-attachment: fixed;
+}
+
+ul{display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+    flex-wrap: wrap;}
+
+form{ display: flex;
+    flex-direction: column;
+    margin: left;
+width: 25%;}
+
+input{padding: 5px;
+     border: 2px;
+     box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.15);
+     border-radius: 9px;}
+
+a:hover{ color: #ebe834;
+        background-color: rgb(255, 0, 0);}
+
+a:active {  
+            background-color: #C1FFD7;
+        }
+
+a:focus {
+            background-color: #FCFFA6;
+        }
+
+header{padding: 40px;}
+
+section{padding: 5px;}
+        
+footer{padding: 1px}
+
+.classe1{
+    color: #663399;
+    font-weight: 1000;
+}
+
+.classe2{
+    color: #994b33;
+    font-weight: 1000;}
+
+.testdiv:hover{background-color: #BEAEE2;
+    color: white;
+    
+}
+
+.important{color: #070707;
+           font-weight: 800;
+           text-decoration: underline;
+         }
+
+
+.lien{font-family: 'Dosis', sans-serif;
+      font-family: 'MuseoModerno', cursive;
+      font-family: 'Source Code Pro', monospace;
+      color: blue;
+      font-size: 1.5em;
+      box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.15);
+      }
+
+.liens{font-family: 'Dosis', sans-serif;
+        font-family: 'MuseoModerno', cursive;
+        font-family: 'Source Code Pro', monospace;
+        color: blue;
+        font-size: 1em;
+        box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.15);
+        }
+.bloc{  border-top: 2px rgb(252, 227, 3) solid;
+    border-right: 2px  rgb(252, 227, 3) solid;
+    border-bottom: 2px  rgb(252, 227, 3) solid;
+    border-left: 2px  rgb(252, 227, 3) solid;
+    border-radius: 9px;
+background-color: red;}
+
+.lien{display:inline-block;
+height: 40px;}
+
+.testdiv{text-align: center;}
+
+
+
+
+

@@ -1,0 +1,157 @@
+h1 {color: darkviolet;
+    font-size: 50px;
+    text-align: center;
+    }
+
+h2{background-color: rgb(235, 76, 52, 0.5);
+        border-top: 2px rgb(252, 227, 3) solid;
+        border-right: 2px  rgb(252, 227, 3) solid;
+        border-bottom: 2px  rgb(252, 227, 3) solid;
+        border-left: 2px  rgb(252, 227, 3) solid;
+        border-radius: 9px;}
+
+p, h1, h2, h3, h4, ul, ol, a {font-family: 'Dosis', sans-serif;
+            font-family: 'MuseoModerno', cursive;
+            font-family: 'Source Code Pro', monospace;
+            } 
+h1{font-size: 3em;
+text-shadow: 6px 6px 0px rgb(253, 236, 2); }
+
+p{font-size: 1em;
+text-align: left;}
+
+
+span{color: #A5B4FC;}
+
+em{ font-style: italic;}
+
+body{background: linear-gradient(#FDC830,#F37335);
+;}
+
+a{width: 50%;}
+
+a:hover{ color: #ebe834;
+    background-color: rgb(255, 0, 0);}
+
+a:visited {
+        color: blue;
+    }
+
+td, th{border: 1px solid black;
+        text-align: center;
+        padding:15px;
+        }
+table{border-collapse: collapse;
+    margin: auto;}
+    
+caption{caption-side: bottom;
+        font-style: italic;}
+
+
+.classe1{
+    color: #663399;
+    font-weight: 1000;
+}
+
+.sauces{ margin-left: 650px ;
+}
+
+.classe2{
+    color: #994b33;
+    font-weight: 1000;
+}
+
+.services {grid-row: auto;}
+
+.fricadelle{ padding-left: 645px; }
+
+.important{color: #A5B4FC;
+           font-weight: 800;
+           text-decoration: underline;
+         }
+
+.introduction{font-size: large;
+}
+
+.lien{font-family: 'Dosis', sans-serif;
+    font-family: 'MuseoModerno', cursive;
+    font-family: 'Source Code Pro', monospace;
+    color: blue;
+font-size: 1em;}
+
+
+.histoire{ width: 50%;
+    background-color: #F1C864;
+    text-align: center;
+    padding: 16px;
+    padding-bottom: 0%;
+    margin:auto;
+}
+
+.lafrite{ 
+    background-color: #F1C864;
+    text-align: justify;
+    padding : 16px;
+        margin-right: 300px;
+}
+
+.age{background-color: #ff1201;
+    text-align: justify;
+    padding : 16px;
+    margin-left: 300px;}
+
+    section{padding: 5px;}
+
+    .box {
+        background-color: #f9fd01;
+        border-radius: 10px;
+        border: 3px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;}
+
+    .conteneur {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 100px 100px 100px 100px 100px 100px 100px;
+        grid-gap: 10px;}
+      
+
+        .une {
+            grid-column: 1 / 4;
+            grid-row: 1 / 2;
+            
+        }
+        
+        .deux {
+          grid-column: 1 / 2;
+          grid-row: 2 / 4;
+        }     
+
+        .cinq {
+            grid-column: 2 / 4;
+            grid-row: 3 / 4;
+          }   
+
+          .six {
+            grid-column: 1 / 3;
+            grid-row: 4 / 5;
+          }
+          .neuf {
+            grid-column: 2 / 4;
+            grid-row: 5 / 7;
+          }
+          .dix {
+            grid-column: 2 / 4;
+            grid-row: 5 / 7;
+          }
+
+          .conteneur{
+            width: 100%;
+            height: 100%;
+             object-fit: cover;
+          }
+fritemini{margin: auto;}
+
+
+.americain{margin-left: 650px;}
